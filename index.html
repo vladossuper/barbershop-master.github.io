@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/outline.css">
+    <title>Барбершоп «Бородинский»</title>
+    
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo.png" width="368" height="204" alt="Логотип барбершопа «Бородинский»">
+        </a>
+        <div class="main-navigation-wrapper">
+        <div class="container">
+        <ul class="site-navigation">
+          <li class="site-navigation-item"><a href="info.html">Информация</a></li>
+          <li class="site-navigation-item"><a href="news.html">Новости</a></li>
+          <li class="site-navigation-item"><a href="price.html">Прайс-лист</a></li>
+          <li class="site-navigation-item"><a href="shop.html">Магазин</a></li>
+          <li class="site-navigation-item"><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="user-navigation">
+          <li class="login-logo">
+            <img src="img/login.png" alt="login" width="14" height="14">
+          </li>
+          <li><a class="login-link" href="login.html">Вход</a></li>
+        </ul>
+      </div>
+      </div>
+      </nav>
+    </header>
+    <main class="container">
+      
+      <h1 class="visually-hidden">Барбершопский «Бородинский»</h1>
+      
+      <section class="features">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <ul class="features-list">
+          <li class="feature-item">
+            <h3>Быстро</h3>
+            <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+          </li>
+          <li class="feature-item">
+            <h3>Круто</h3>
+            <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          </li>
+          <li class="feature-item">
+            <h3>Дорого</h3>
+            <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          </li>
+        </ul>
+      </section>
+      
+      <div class="inner-block">
+      <div class="index-columns">
+      <section class="news">
+        <h2>Новости</h2>
+        <ul class="news-list">
+          <li class="news-item">
+            <p>Нам наконец завезли Егермейстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+            <time datetime="2016-01-11">11 января</time>
+          </li>
+          <li class="news-item">
+            <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+            <time datetime="2016-01-18">18 января</time>
+          </li>
+        </ul>
+        <a class="button" href="news.html">Все новости</a>
+      </section>
+      
+      <section class="gallery">
+        <h2>Фотогалерея</h2>
+        <figure class="gallery-content">
+          <a href="#"><img src="img/interior-1.jpg" width="286" height="164" alt="Интерьер"></a>
+          <a href="#"><img src="img/interior-2.jpg" width="286" height="164" alt="Интерьер"></a>
+        </figure>
+        <div class="gallery-button-flex">
+        <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+        <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+      </div>
+      </section>
+
+    </div>
+    </div>
+      
+      <div class="inner-block">
+      <div class="index-columns">
+      <section class="contacts">
+        <h2>Контактная информация</h2>
+        <p class="contacts-info">
+           Барбершоп «Бородинский»<br>
+           Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+           Телефон: +7 (812) 666-02-66
+        </p>
+        <p class="time-info">
+          Время работы:<br>
+          пн—пт: с 10:00 до 22:00<br>
+          сб—вс: с 10:00 до 19:00
+        </p>
+        <div class="buttons">
+        <a class="button contacts-button-map" href="map.html">Как проехать</a>
+        <a class="button contacts-button" href="contacts.html">Обратная связь</a>
+        </div>
+      </section>
+      
+      <section class="appointment">
+        <h2>Записаться</h2>
+        <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+        
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+          <div class="appointment-container">
+          <p class="appointment-item">
+            <label for="appointment-date">Дата</label>
+            <input id="appointment-date" type="text" name="date" value="" placeholder="08.10.2017">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-time">Время</label>
+            <input id="appointment-time" type="text" name="time" value="" placeholder="10:00">
+          </p>
+          </div>
+          <div class="appointment-container">
+          <p class="appointment-item">
+            <label for="appointment-name">Ваше имя</label>
+            <input id="appointment-name" type="text" name="name" value="" placeholder="Борода">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-phone">Телефон</label>
+            <input id="appointment-phone" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+          </p>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+          
+      </section>
+      </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="container">
+      <p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="map.html">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+        <p>Давайте дружить!</p>
+        <ul class="social-network">
+          <li><a class="social-button" href="#"><img src="img/vk.png" alt="Вконтакте"></a></li>
+          <li><a class="social-button" href="#"><img src="img/facebook.png" alt="Фейсбук"></a></li>
+          <li><a class="social-button" href="#"><img src="img/instagram.png" alt="Инстаграм"></a></li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b> 
+        <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
+      </p>
+      </div>
+    </footer>  
+    
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+      <p class="modal-decription">Введите свой логин и пароль.</p>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label class="visually-hidden" for="user-login">Логин</label>
+          <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
+        </p>
+        <p>
+          <label class="visually-hidden" for="user-password">Пароль</label>
+          <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+        </p>
+        <p class="login-password-info">
+          <p class="login-help">
+          <label class="login-checkbox">
+            <input type="checkbox" name="remember" class="visually-hidden">
+            <span class="checkbox-indicator"></span>
+            Запомните меня
+          </label>
+          <a class="restore" href="#">Я забыл пароль!</a>
+        </p>
+        </p>
+        <button class="button" type="submit">Войти</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как до нас добраться</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.597663939359!2d30.32130951585715!3d59.93881808187627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310e354288bb%3A0xbbeecda9980bbc58!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE4LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0ZbRjywgMTkxMTg2!5e0!3m2!1suk!2sua!4v1521305420894" width="780" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <!--<p>
+        <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      </p>-->
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
+
+    <script>
+      var link = document.querySelector(".login-link");
+      var popup = document.querySelector(".modal-login");
+      var close = document.querySelector(".modal-close");
+      var login = popup.querySelector("[name=login]");
+      var password = popup.querySelector("[name=password]")
+      var form = popup.querySelector("form");
+      var storage = localStorage.getItem("login");
+      var mapLink = document.querySelector(".contacts-button-map");
+      var mapPopup = document.querySelector(".modal-map");
+      var mapClose = mapPopup.querySelector(".modal-close");
+     
+      link.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.add("modal-show");
+        if (storage) {
+          login.value = storage;
+          password.focus();
+        } else {
+          login.focus();
+        }
+      });
+      
+      close.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.remove("modal-show");
+        popup.classList.remove("modal-error");
+      });
+      form.addEventListener("submit", function(evt) {
+        if (!login.value || !password.value) {
+        evt.preventDefault();
+        popup.classList.add("modal-error");
+      } else {
+        localStorage.setItem("name", login.value);
+      }
+      });
+
+      window.addEventListener("keydown", function(evt) {
+        if (evt.keyCode === 27) {
+          if (popup.classList.contains("modal-show")){
+          popup.classList.remove("modal-show");
+          }
+        }
+      });
+
+      mapLink.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        mapPopup.classList.add("modal-show");
+      });
+
+      mapClose.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        mapPopup.classList.remove("modal-show");
+        });
+
+      window.addEventListener("keydown", function(evt) {
+        if (evt.keyCode === 27) {
+          if (mapPopup.classList.contains("modal-show")){
+          mapPopup.classList.remove("modal-show");
+          }
+        }
+      });
+
+    </script>
+   
+
+  </body>
+</html>
